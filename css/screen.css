@@ -1,0 +1,50 @@
+body {
+	background-color: white;
+	font: 13.34px helvetica, arial, clean, sans-serif;
+	text-align: center;
+	font-size: 110%;
+	text-align: justify;
+	width: 40em;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+
+a {
+	color: #3a5576;
+}
+
+
+h1.title {
+	color: #a00;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-decoration: none;
+	float: left;
+	margin-bottom: 1em;
+}
+	h1.title a, h1.title a:active {
+		text-decoration: none;
+		color: #000;
+	}
+
+
+ul.sitelinks {
+	list-style-type: none;
+	margin-bottom: 1em;
+	float: right;
+}
+
+	ul.sitelinks li {
+		font-weight: bold;
+		float: left;
+		padding: .5em;
+	}
+	ul.sitelinks li a {
+		text-decoration: none;
+	}
+	ul.sitelinks li a:hover {
+		text-decoration: underline;
+	}
+
+
+ 
