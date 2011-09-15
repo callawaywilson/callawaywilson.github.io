@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Social Counts: A Two Night Project
+title: Social Counts Two Night Project
 ---
 
-Announcing Social Counts [counts.callawaywilson.com](http://counts.callawaywilson.com)
+Announcing Social Counts\: [counts.callawaywilson.com](http://counts.callawaywilson.com)
 
 I recently was doing some work to try to calculate the "popularity" of things online.  One of the methods I tried was counting the number of times the url for the event had been shared on online services.  I ran across a few sites and gems that do that kind of thing: [sharedcount.com](http://sharedcount.com) by Yahel Carmon and this gem: [github.com/vitobotta/share_counts](https://github.com/vitobotta/share_counts).  
 
