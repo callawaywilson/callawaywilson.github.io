@@ -9,6 +9,13 @@ body {
 	line-height: 1.5em;
 }
 
+hr {
+	margin: 35px 150px 60px 150px;
+	background-color: #999;
+	height: 1px;
+	border: none;
+}
+
 a {
 	color: #3a5576;
 }
@@ -24,6 +31,10 @@ h3 {
 p {
 	margin-top: 0;
 	margin-bottom: 1.5em;
+}
+
+pre {
+	margin: 20px 40px 20px 40px;
 }
 
 
@@ -61,11 +72,13 @@ ul.sitelinks {
 
 .rightinfo {
 	margin-left: 155px;
+	margin-bottom: 40px;
 }
 
 .leftinfo {
 	float: left;
 	margin-right: 5px;
+	margin-bottom: 40px;
 }
 
 	.leftinfo img {
