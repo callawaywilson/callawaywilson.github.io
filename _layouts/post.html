@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/css/screen.css" type="text/css"/>
-</head>
+---
+layout: default
+---
+	
+<h2>{{ page.title }}</h2>
 
-<body>
-	<h1 class="title">
-		<a href="/index.html">Adam Wilson</a>
-	</h1>
-	
-	<ul class="sitelinks">
-		<li><a href="/posts.html">posts</a></li>
-		<li><a href="/projects.html">projects</a></li>
-		<li><a href="/about.html">about</a></li>
-	</ul>
-	
-	<div style="clear:both;"></div>
-	
-	<h2>{{ page.title }}</h2>
-	
-	{{ content }}
-	
-</body>
-</html>
+{{ content }}
