@@ -17,14 +17,16 @@ So, I just thought I'd share a couple of cool things that I learned:
 
 All the functionality on the site is just a form a list of counts, but there is some content and documentation.  I really didn't want to format the content as HTML or event HAML.  The README and this post were written in [Markdown](http://daringfireball.net/projects/markdown/), and I thought that it would make sense to just not repeat myself.  After checking out a few markdown gems, I couldn't find anything that would act as a template handler so I could just put the .markdown file in the views.  I didn't want to put in some kind of CMS system for 10K of static text, so I wrote a quick Markdownizer template handler with syntax highlight support:
 
-	class MarkdownHandler < ActionView::Template::Handler
-		def call(template)
-			Markdownizer.markdown(Markdownizer.coderay(template.source)).inspect
-		end
+{% highlight ruby %}
+class MarkdownHandler < ActionView::Template::Handler
+	def call(template)
+		Markdownizer.markdown(Markdownizer.coderay(template.source)).inspect
 	end
-	
-	#Register Handler
-	ActionView::Template.register_template_handler(:md, MarkdownHandler.new)
+end
+
+#Register Handler
+ActionView::Template.register_template_handler(:md, MarkdownHandler.new)
+{% endhighlight %}
 
 This will render the template (without any variables or ruby code) through the Markdownizer coderay and markdown renderers.  Stick it in an initializer at "config/initializers" and you can put markdown in .md suffixed files in your view.  Huzzah!
 
@@ -32,6 +34,8 @@ This will render the template (without any variables or ruby code) through the M
 
 The way I had implemented the share counting logic betrayed my Java roots.  I created a generic 'Share' class that held most of the logic for invoking, parsing, and interpreting the various APIs that I'd be talking to.  I then subclassed it to include the differing logic and values of each endpoint.  I suppose modules to support JSON APIs / HTML scraping would have made sense too...  Anyways, I wanted to have a class method in 'Share' collect all of its subclasses, fork out a fetch, and the join the results.  I found a great way to do this:
 
-	ObjectSpace.each_object(Class).select { |klass| klass < self }
+{% highlight ruby %}
+ObjectSpace.each_object(Class).select { |klass| klass < self }
+{% endhighlight %}
 
 Except that I always got back an empty set. Turns out that non-production rails environments don't load all the code at startup, but at every request.  That's is awesome while you're testing, but it make reflection tasks like this impossible to run.  Since I don't want my production code to be different from my development, I just ended up enumerating all the classes.  Oh well.

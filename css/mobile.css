@@ -1,0 +1,21 @@
+body {
+	width: 100%;
+	margin-bottom: 0;
+	max-width: 1200px;
+}
+
+#content {
+	font-size: 120%;
+}
+
+#footer {
+	font-size: 200%;
+}
+
+h1.title {
+	font-size: 300%;
+}
+
+ul.sitelinks {
+	font-size: 200%;
+}

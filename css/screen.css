@@ -1,11 +1,12 @@
 body {
-	background-color: white;
-	font: 12px helvetica, arial, clean, sans-serif;
+	background-color: #d2d1d4;
+	font: 14px 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	text-align: center;
-	font-size: 100%;
 	text-align: justify;
-	width: 45em;
-	margin: 2em auto;
+	width: 75%;
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 1em;
 	line-height: 1.5em;
 }
 
@@ -18,6 +19,10 @@ hr {
 
 a {
 	color: #3a5576;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 h2 {
@@ -34,40 +39,109 @@ p {
 }
 
 pre {
-	margin: 20px 40px 20px 40px;
+	overflow-x: auto;
+	padding: 10px 40px 10px 10px;
+	margin: 0 0 20px 0;
+	font-size: 85%;
+	border-left: solid 2px #ccc;
 }
+code {
+	font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+blockquote {
+	margin: 5px 5px 20px 5px;
+	padding: 10px 10px 10px 10px;
+	background-color: #e2e1e4;
+	border-top: solid 1px #819db9;
+	border-bottom: solid 1px #819db9;
+}
+blockquote p {
+	margin-bottom: 5px;
+}
+
+#page {
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 40px #333;
+	-webkit-box-shadow: 0px 0px 40px #333;
+	box-shadow: 0px 0px 40px #333;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+
+}
+
+#header {
+	color: #fff;
+	background: #819db9 url(../images/background-texture.png) repeat 0 0;
+	padding: 1em 1em 1em 1em;
+	border-bottom: solid 1px #5a7596;
+}
+
+#content {
+	padding: 2em 2em;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+#footer {
+	color: #fff;
+	background: #819db9 url(../images/background-texture.png) repeat 0 0;
+	padding: 1em 1em 1em 1em;
+	border-top: solid 1px #5a7596;
+}
+	#footer .email {
+		float:right;
+		margin-right: 20px;
+		text-decoration: none;
+		color: #fff;
+	}
+	#footer .email:hover {
+		color: #fff;
+		text-shadow: 1px 1px 8px #3a5576;
+	}
 
 
 h1.title {
-	color: #a00;
 	font-weight: bold;
-	margin-bottom: 2em;
+	margin: 10px 0;
 	text-decoration: none;
 	float: left;
-	margin-bottom: 1em;
 }
 	h1.title a, h1.title a:active {
 		text-decoration: none;
-		color: #000;
+		color: #fff;
 	}
+	h1.title a:hover {
+		color: #fff;
+		text-shadow: 1px 1px 8px #3a5576;
+	}
+	
+.title_thumb {
+	width: 50px;
+	height: 50px;
+	margin: -15px 0;
+}
 
 
 ul.sitelinks {
 	list-style-type: none;
-	margin-bottom: 1em;
+	margin: 10px 0;
 	float: right;
+	font-size: 1.2em;
 }
 
 	ul.sitelinks li {
 		font-weight: bold;
 		float: left;
-		padding: .5em;
+		padding: 0 .5em;
 	}
 	ul.sitelinks li a {
 		text-decoration: none;
+		color: #fff;
 	}
 	ul.sitelinks li a:hover {
-		text-decoration: underline;
+		color: #fff;
+		text-shadow: 1px 1px 8px #3a5576;
 	}
 
 .rightinfo {
@@ -84,3 +158,20 @@ ul.sitelinks {
 	.leftinfo img {
 		border: none;
 	}
+	
+.post_header {
+	margin-bottom: 0;
+}
+.post_date {
+
+}
+.post_content {
+	margin-top: 1em;
+	padding: 0 2em;
+}
+
+ul.contact {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}

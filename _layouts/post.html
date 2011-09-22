@@ -2,6 +2,9 @@
 layout: default
 ---
 	
-<h2>{{ page.title }}</h2>
 
+<h2 class="post_header"><a href="{{ post.url }}">{{ page.title }}</a></h2>
+<em class="post_date">{{ page.date | date_to_long_string }}</em>
+<div class="post_content">
 {{ content }}
+</div>

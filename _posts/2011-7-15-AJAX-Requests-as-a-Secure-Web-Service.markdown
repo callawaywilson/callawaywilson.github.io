@@ -11,7 +11,7 @@ He's a very security-minded admin and developer, so of course he caught it befor
 
 So how can we prevent these kinds of security errors from slipping through? Well, I think that by conceptualizing the browser a little differently we can save lots of money and hairlines:
 
-The Browser is a Web Service Client!
+> The Browser is a Web Service Client!
 
 ...and your in-browser client code is a reference implementation of the client. While there are unsecure web services out there, they are in general a lot more secure than callback endpoints for ajax requests. This is because a web service developer sees the web service as the security line. You never trust any inputs from the clients (this true for pretty much everything).
 
