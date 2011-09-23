@@ -151,6 +151,8 @@ ul.sitelinks {
 
 .leftinfo {
 	float: left;
+	text-align: left;
+	width: 150px;
 	margin-right: 5px;
 	margin-bottom: 40px;
 }
@@ -174,4 +176,8 @@ ul.contact {
 	list-style-type: none;
 	margin: 0 0 1em 0;
 	padding: 0;
+}
+
+.cv_header {
+	text-align: center;
 }
