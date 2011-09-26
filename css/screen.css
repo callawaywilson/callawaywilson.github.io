@@ -1,11 +1,13 @@
 body {
 	background-color: #d2d1d4;
-	font: 14px 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font: 13px 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	text-align: center;
 	text-align: justify;
-	width: 75%;
-	max-width: 900px;
+	width: 80%;
+	max-width: 1000px;
+	min-width: 700px;
 	margin: auto;
+	overflow-x: auto;
 	margin-bottom: 1em;
 	line-height: 1.5em;
 }
@@ -72,6 +74,7 @@ blockquote p {
 
 #header {
 	color: #fff;
+	font-size: 15px;
 	background: #819db9 url(../images/background-texture.png) repeat 0 0;
 	padding: 1em 1em 1em 1em;
 	border-bottom: solid 1px #5a7596;
@@ -143,6 +146,10 @@ ul.sitelinks {
 		color: #fff;
 		text-shadow: 1px 1px 8px #3a5576;
 	}
+
+.recent_posts_header {
+	margin-bottom: 2em;
+}
 
 .rightinfo {
 	margin-left: 155px;
