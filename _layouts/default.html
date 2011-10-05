@@ -35,10 +35,14 @@
 			
 			<div style="clear:both;"></div>
 		</div>
-		
-		<div id="content">
+
+		<div id="content" class="with_sidebar">
 			{{ content }}
 		</div>
+
+		{% include sidebar.html %}
+
+		<div style="clear:both;"></div>
 		
 		<div id="footer">
 			Updated {{ site.time | date_to_long_string  }}

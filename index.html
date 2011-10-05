@@ -3,14 +3,6 @@ layout: default
 title: Adam Wilson
 ---
 
-<div class="recent_posts_header">
-	<strong>Most Recent Posts:</strong>
-	{% for post in site.posts limit:5 %}
-	<a href="{{ post.url }}">{{ post.title }}</a>
-	|
-	{% endfor %}	
-</div>
-
 <div>
 {% for post in site.posts limit:5 %}
 <h2 class="post_header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -22,8 +14,6 @@ title: Adam Wilson
 <hr/>
 {% endfor %}
 </div>
-
-<div style="clear:both;"></div>
 
 <script type="text/javascript">
     var disqus_shortname = 'callawaywilson';

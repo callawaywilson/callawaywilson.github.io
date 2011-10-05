@@ -1,11 +1,8 @@
 body {
 	background-color: #d2d1d4;
 	font: 13px 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-	text-align: center;
-	text-align: justify;
 	width: 80%;
-	max-width: 1000px;
-	min-width: 700px;
+	width: 950px;
 	margin: auto;
 	overflow-x: auto;
 	margin-bottom: 1em;
@@ -81,9 +78,18 @@ blockquote p {
 }
 
 #content {
-	padding: 2em 2em;
-	border-top: solid 1px #aaa;
-	border-bottom: solid 1px #aaa;
+	margin: 2em 1em 2em 2em;
+}
+
+.with_sidebar {
+	float: left;
+	width: 615px;
+}
+
+#sidebar {
+	float: right;
+	width: 230px;
+	margin: 1em 2em 3em 2em;
 }
 
 #footer {
@@ -147,8 +153,14 @@ ul.sitelinks {
 		text-shadow: 1px 1px 8px #3a5576;
 	}
 
-.recent_posts_header {
-	margin-bottom: 2em;
+.recent_posts {
+	margin: 5px 0 0 10px;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.recent_posts li {
+	padding: 6px 0;
 }
 
 .rightinfo {
@@ -176,7 +188,7 @@ ul.sitelinks {
 }
 .post_content {
 	margin-top: 1em;
-	padding: 0 2em;
+	padding-left: 1em;
 }
 
 ul.contact {
