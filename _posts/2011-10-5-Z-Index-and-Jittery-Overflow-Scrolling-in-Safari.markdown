@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Z-Index and Jittery Overflow Scrolling in Safari
+keywords: css scroll overflow safari rendering tearing jittery jump
+description: Solution to div scrolling tearing/jumping in Safari
+tags: 
+- webdev
+- techtips
 ---
 
 Here's a little tech tip I just learned.  I can usually find solutions to problems like this from a quick google search, but couldn't find anything about this.  Hopefully this will be indexed and the next person will not waste as much time as me:

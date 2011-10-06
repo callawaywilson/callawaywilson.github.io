@@ -1,6 +1,11 @@
 ---
 layout: post
-title: Hashbangs? Really?  Here's a functional alternative.
+title: Hashbangs? Really?  Here's a functional alternative
+keywords: hashbangs html5 history browser compatibilty url
+description: A good cross-browser way to treat URLs properly with History.pushState()
+tags: 
+- webdev
+- techtips
 ---
 
 So yeah, twitter does it.  If twitter started putting up unskippable flash ads, would you put them on your site?  No? Of course not, because it's a bad idea. URLs are supposed to represent an actual resource on the server that you're asking for, even for your fancy one-page site. Yes it's impossible to make HTML5 URLs work universally (seriously IE, still?), but that doesn't mean that we need to break URLs for well behaved browsers.

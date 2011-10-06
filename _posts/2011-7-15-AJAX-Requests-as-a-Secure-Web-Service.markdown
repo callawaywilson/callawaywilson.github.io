@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Thinking of AJAX Requests as a Secure Web Service
+keywords: web security design patterns web service api
+description: Improving web application's security by treating your asynchronous services as a web service API
+tags: 
+- webdev
 ---
 
 It's VERY easy to unintentionally create security holes using the asynchronous features of modern web browsers. Time was when the only holes in a web server were the HTTP request for a file and the occasional CGI script. Now, ajax requests can outnumber the normal page requests by a significant margin.  We don't always consider that these request are coming from the client space.

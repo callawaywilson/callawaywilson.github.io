@@ -30,7 +30,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline
@@ -38,5 +37,22 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
-    
+
 pygments: true
+
+#
+# Site configuration
+#
+url:          http://callawaywilson.com
+domain:       callawaywilson.com
+title:        Adam Callaway Wilson | Developer's Musings
+keywords:     Adam Wilson Ruby Rails Blog Web Development Technology Nerd HugeCity.us
+description:  Adam Callaway Wilson's personal website and blog.  Writings about technology, development, and nerd-dom.  Projects I have worked on and am working on.
+author:       Adam Wilson
+email:        adam@callawaywilson.com
+
+#Google Analytics
+analytics_id: UA-25746028-1
+
+#Disqus Name
+disqus_shortname: callawaywilson

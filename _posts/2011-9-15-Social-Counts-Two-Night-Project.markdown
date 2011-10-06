@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Social Counts Two Night Project
+keywords: counts social personal project
+description: Announcing Social Counts, a quick way to gauge a url's popularity on the web
+tags: 
+- webdev
+- projects
+- counts
 ---
 
 Announcing Social Counts\: [counts.callawaywilson.com](http://counts.callawaywilson.com)
