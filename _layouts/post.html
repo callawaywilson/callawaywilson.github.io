@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <h2 class="post_header"><a href="{{ post.url }}">{{ page.title }}</a></h2>
 <em class="post_date">{{ page.date | date_to_long_string }}</em>
 <div class="post_content">
@@ -12,15 +11,4 @@ layout: default
 </div>
 
 
-<script type="text/javascript">
-	//Disqus Comments
-  var disqus_shortname = "callawaywilson";
-	var disqus_identifier = "http://" + window.location.hostname + "{{page.url}}";
-	var disqus_url = "http://" + window.location.hostname + "{{page.url}}";
-	
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
+{% include disqus_full.html %}
