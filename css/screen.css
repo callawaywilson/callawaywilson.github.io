@@ -24,10 +24,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-h2 {
-	margin-top: 0;
-}
-
 h3 {
 	margin-top: 0;
 }
@@ -111,16 +107,23 @@ blockquote p {
 
 
 h1.title {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 1em;
+	font-size: 18px;
+}
+
+h1.site {
 	font-weight: bold;
 	margin: 10px 0;
 	text-decoration: none;
 	float: left;
 }
-	h1.title a, h1.title a:active {
+	h1.site a, h1.site a:active {
 		text-decoration: none;
 		color: #fff;
 	}
-	h1.title a:hover {
+	h1.site a:hover {
 		color: #fff;
 		text-shadow: 1px 1px 8px #3a5576;
 	}
@@ -181,7 +184,8 @@ ul.sitelinks {
 	}
 	
 .post_header {
-	margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 2px;
 }
 .post_date {
 
