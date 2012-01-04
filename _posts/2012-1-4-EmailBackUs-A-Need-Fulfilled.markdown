@@ -8,7 +8,7 @@ tags:
 - projects
 ---
 
-<img src="images/emailbackus.png" style="float:left; padding: 5px;"/>
+<a href="http://emailback.us"><img src="images/emailbackus.png" style="float:left; padding: 5px;"/></a>
 So a few weeks ago, when I was writing the home page for [hugecity.us](http://hugecity.us), I was really excited to be putting together an entire site with no back-end processing whatsoever.  After writing a few Ruby on Rails apps recently it was nice to be able to fit a bunch of separate applications on the same small Rackspace instance.  
 
 I was flummoxed, however, by the contact form.  All my dreams of serving static html, images, and javascript came crashing down when I realized that I'd have to spend **almost an hour** installing and configuring PHP or node.js just to have an emailed contact form.  Not to mention the ever-so-slightly higher processor demands on a box that I planned to stuff to the brim with miniscule experiments.
