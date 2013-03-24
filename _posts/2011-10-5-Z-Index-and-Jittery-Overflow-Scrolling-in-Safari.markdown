@@ -14,13 +14,13 @@ I just wasted almost an hour debugging some CSS in Safari with a funky scrolling
 
 {% highlight css %}
 .list_container {
-	position: absolute;
-	left: 70px;
-	top: 90px;
-	bottom: 0;
-	right: 0;
-	overflow-y: auto;
-	z-index: 2;
+  position: absolute;
+  left: 70px;
+  top: 90px;
+  bottom: 0;
+  right: 0;
+  overflow-y: auto;
+  z-index: 2;
 }
 {% endhighlight %}
 

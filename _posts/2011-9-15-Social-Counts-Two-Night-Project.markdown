@@ -25,9 +25,9 @@ All the functionality on the site is just a form a list of counts, but there is 
 
 {% highlight ruby %}
 class MarkdownHandler < ActionView::Template::Handler
-	def call(template)
-		Markdownizer.markdown(Markdownizer.coderay(template.source)).inspect
-	end
+  def call(template)
+    Markdownizer.markdown(Markdownizer.coderay(template.source)).inspect
+  end
 end
 
 #Register Handler

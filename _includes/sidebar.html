@@ -1,12 +1,25 @@
 <div id="sidebar">
-	<strong>Most Recent Posts</strong>
-	<ul class="recent_posts">
-	{% for post in site.posts limit:5 %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-		<li><a href="/posts.html">more...</a></li>
-	</ul>	
 
-	<strong>Twitter Feed</strong>
-	{% include twitter.html %}
+  <h3>Adam Wilson</h3>
+  
+  <div class="sitelinks">
+    <a href="/">home</a> <span class="divider">&middot;</span> 
+    <a href="/projects.html">projects</a> <span class="divider">&middot;</span>
+    <a href="/about.html">about</a>
+    <span class="menu_recent_posts">
+      <span class="divider">&middot;</span> 
+      <a href="/posts.html">posts</a>
+    </span>
+  </div>
+
+  <div class="recent_posts">
+  	<h4>Most Recent Posts</h4>
+  	<ul>
+    	{% for post in site.posts limit:5 %}
+    		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    	{% endfor %}
+  		<li><a href="/posts.html">more...</a></li>
+  	</ul>	
+  </div>
+
 </div>

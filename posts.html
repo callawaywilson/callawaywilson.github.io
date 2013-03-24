@@ -6,14 +6,16 @@ keywords: blog posts
 description: Ramblings and musings on technology, development, and life.
 ---
 
-<h1 class="title">All my blog posts</h1>
-
 {% for post in site.posts %}
-<h2 class="post_header"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<em class="post_date">{{ post.date | date_to_long_string }}</em>
+<h2 class="post_header">{{ post.title }}</h2>
+<p class="post_info">
+  <em class="post_date">{{ post.date | date_to_long_string }}</em> 
+  <span class="divider">&middot;</span>
+  <a href="{{post.url}}">Go to post</a>
+</p>
 <div class="post_content">
 	{{ post.content | truncatewords: 100 }}
-	<p><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.url}}">Go to post</a></p>
+  <p><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.url}}">Comments and Reactions</a></p>
 </div>
 <hr/>
 {% endfor %}

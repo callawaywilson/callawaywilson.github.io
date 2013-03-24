@@ -2,8 +2,14 @@
 layout: default
 ---
 
-<h2 class="post_header"><a href="{{ post.url }}">{{ page.title }}</a></h2>
-<em class="post_date">{{ page.date | date_to_long_string }}</em>
+<h2 class="post_header">{{ page.title }}</h2>
+
+<p class="post_info">
+  <em class="post_date">{{ page.date | date_to_long_string }}</em>
+  <span class="divider">&middot;</span>
+  <a href="#disqus_thread" data-disqus-identifier="{{page.url}}">Comments and Reactions</a>
+</p>
+
 <div class="post_content">
 	{{ content }}
 	<div id="disqus_thread"></div>

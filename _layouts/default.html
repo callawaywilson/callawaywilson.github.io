@@ -2,49 +2,26 @@
 <html>
 <head>
 	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/css/screen.css" type="text/css"/>
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="/css/site.css" type="text/css"/>
 	<link rel="stylesheet" href="/css/pygments.css" type="text/css"/>
-	<link media="handheld, screen and (max-device-width: 640px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=0.75">
 
 	{% include analytics.html %}
 </head>
 
 <body>
-	<div id="header">
-		<div id="header_content">
-			<h1 class="site">
-				<a href="index.html">
-					<img class="title_thumb" src="/images/profile-poster-thumb.png"/>
-					Adam Wilson
-				</a>
-			</h1>
-			
-			<ul class="sitelinks">
-				<li><a href="/posts.html">posts</a></li>
-				<li><a href="/projects.html">projects</a></li>
-				<li><a href="/about.html">about</a></li>
-			</ul>
-			
-			<div style="clear:both;"></div>
-		</div>
-	</div>
 	<div id="page">
+
+		{% include sidebar.html %}
 
 		<div id="content" class="with_sidebar">
 			{{ content }}
 		</div>
 
-		{% include sidebar.html %}
-
-		<div style="clear:both;"></div>
-		
-		<div id="footer">
-			Updated {{ site.time | date_to_long_string  }}
-			<a class="email" href="mailto:adam@callawaywilson.com">adam@callawaywilson.com</a>
-			<div style="clear:both;"></div>
-		</div>
 	</div>
 </body>
 </html>

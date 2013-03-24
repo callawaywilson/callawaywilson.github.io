@@ -37,7 +37,7 @@ So a user with an HTML5 browser comes in on a hashed URL they found: awesomeco.c
 
 {% highlight javascript %}
 if (!History.emulated.pushState && window.location.hash.length > 1) {
-	window.location = '/' + window.location.hash.substring(1, window.location.hash.length);
+  window.location = '/' + window.location.hash.substring(1, window.location.hash.length);
 }
 {% endhighlight %}
 
@@ -49,8 +49,8 @@ If someone comes in with that same hashed link, and the browser doesn't support 
 
 {% highlight javascript %}
 if (History.emulated.pushState && window.location.hash.length > 1) {
-	var resource = parseResource(window.location.hash);
-	handleContent(API.fetch(resource));
+  var resource = parseResource(window.location.hash);
+  handleContent(API.fetch(resource));
 }
 {% endhighlight %}
 
@@ -60,7 +60,7 @@ The last special case that needs to be handled is a non-hashed URL being request
 
 {% highlight javascript %}
 if (History.emulated.pushState && window.location.pathname.length > 1) {
-	window.location = '/#' + window.location.pathname;
+  window.location = '/#' + window.location.pathname;
 }
 {% endhighlight %}
 
