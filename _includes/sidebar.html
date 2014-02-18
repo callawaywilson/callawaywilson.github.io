@@ -1,6 +1,7 @@
 <div id="sidebar">
 
-  <h3>Adam Wilson</h3>
+  <img class="profile-img" src="/images/profile.jpg"/>
+  <h3 class="name">Adam Wilson</h3>
   
   <div class="sitelinks">
     <a href="/">home</a> <span class="divider">&middot;</span> 
@@ -13,7 +14,7 @@
   </div>
 
   <div class="recent_posts">
-  	<h4>Most Recent Posts</h4>
+  	<h4>Recent Posts</h4>
   	<ul>
     	{% for post in site.posts limit:5 %}
     		<li><a href="{{ post.url }}">{{ post.title }}</a></li>

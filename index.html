@@ -5,12 +5,12 @@ title: Adam Wilson
 
 <div>
 {% for post in site.posts limit:5 %}
-<h2 class="post_header">{{ post.title }}</h2>
-<p class="post_info">
-  <em class="post_date">{{ post.date | date_to_long_string }}</em> 
-  <span class="divider">&middot;</span>
-  <a href="{{post.url}}">Go to post</a>
-</p>
+<h2 class="post_header">
+<a href="{{post.url}}">
+  {{ post.title }}
+  <small>{{ post.date | date_to_long_string }}</small>
+</a>
+</h2>
 <div class="post_content">
 	{{ post.content }}
   <p>
