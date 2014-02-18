@@ -16,24 +16,24 @@ We use a wonderful javascript tool called history.js by Benjamin Arthur Lupton (
 
 ## Hashing Strategy
 
-First, we need to determine a scheme for our URLS.  I think it works best if you just design your resource URLs as if they weren't going to be hashed.  And then put a hash in front of the entire thing if you need the hash.  This works best on a one-page app like twitter or hugecity.  For example, **http://awesomeco.com/awesomecontent** becomes **http://awesomeco.com/#awesomecontent**.
+First, we need to determine a scheme for our URLS.  I think it works best if you just design your resource URLs as if they weren't going to be hashed.  And then put a hash in front of the entire thing if you need the hash.  This works best on a one-page app like twitter or hugecity.  For example, **http://awesomeco.com/content** becomes **http://awesomeco.com/#content**.
 
 Next, we need to decide how we'll serve our content.  At hugecity, we have a base web application served at the root and a JSON-based API to fetch the actual content.  For the web urls, if you fetch content, that resource is inlined in the page served.  For example, if you request **http://hugecity.us/**, you'll get something like this:
 
 	<scripts/>	
 	<html templates/>
 
-But if you fetched **http://hugecity.us/event/1794/Braves_v_Phillies**, you'd get
+But if you fetched **http://hugecity.us/event/1794**, you'd get
 
 	<eventdata/>
 	<scripts/>	
 	<html templates/>
 	
-Of course, if you request **http://hugecity.us/#event/1794/Braves_v_Phillies**, you won't get the eventdata, so we need to figure out how to glue them together:
+Of course, if you request **http://hugecity.us/#event/1794**, you won't get the eventdata, so we need to figure out how to glue them together:
 
 ## Supporting Hashed URLs in HTML5 browsers
 
-So a user with an HTML5 browser comes in on a hashed URL they found: awesomeco.com/#awesomecontent, but the content is really at awesomeco.com/awesomecontent. Simply put in a javascript redirect:
+So a user with an HTML5 browser comes in on a hashed URL they found: awesomeco.com/#content, but the content is really at awesomeco.com/content. Simply put in a javascript redirect:
 
 {% highlight javascript %}
 if (!History.emulated.pushState && window.location.hash.length > 1) {
