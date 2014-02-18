@@ -23,7 +23,7 @@ The Peekr started out as just a web service to grab the metadata for any page.  
 
 The Peekr simply pulls down those relevant meta fields.  For example, when you ask the peekr for the metadata for [facebook.com](http://facebook.com), you get
 
-{% highlight javascript %}
+{% highlight json %}
 {
   "image": "https://www.facebook.com/images/fb_icon_325x325.png",
   "title": "Welcome to Facebook - Log In, Sign Up or Learn More",
@@ -36,7 +36,7 @@ in about 250 milliseconds.  Neat.
 
 Also, but to maximize the shareability, sites like [Youtube](http://youtube.com) and [Vimeo](http://vimeo.com) embed lots more information than that in their metadata.  At the time of this writing, one of the videos on the front page of Vimeo was [A Short Story About Hands](http://vimeo.com/67207222), which presents all this lovely data through the peekr:
 
-{% highlight javascript %}
+{% highlight json %}
 {
   "title": "A Short Story About Hands",
   "description": "Written and Directed by Casey Donahue.  http://thecaseydonahue.com/shortstories",
