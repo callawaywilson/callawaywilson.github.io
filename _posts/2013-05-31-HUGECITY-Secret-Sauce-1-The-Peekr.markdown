@@ -23,31 +23,34 @@ The Peekr started out as just a web service to grab the metadata for any page.  
 
 The Peekr simply pulls down those relevant meta fields.  For example, when you ask the peekr for the metadata for [facebook.com](http://facebook.com), you get
 
-    {
-      "image": "https://www.facebook.com/images/fb_icon_325x325.png",
-      "title": "Welcome to Facebook - Log In, Sign Up or Learn More",
-      "description": "Facebook is a social utility that connects people with friends and others who work, study and live around them. People use Facebook to keep up with friends, upload an unlimited number of photos, post links and videos, and learn more about the people they meet.",
-      "url": "https://www.facebook.com/"
-    } 
+```javascript
+{
+  "image": "https://www.facebook.com/images/fb_icon_325x325.png",
+  "title": "Welcome to Facebook - Log In, Sign Up or Learn More",
+  "description": "Facebook is a social utility that connects people with friends and others who work, study and live around them. People use Facebook to keep up with friends, upload an unlimited number of photos, post links and videos, and learn more about the people they meet.",
+  "url": "https://www.facebook.com/"
+} 
+```
 
 in about 250 milliseconds.  Neat.
 
 Also, but to maximize the shareability, sites like [Youtube](http://youtube.com) and [Vimeo](http://vimeo.com) embed lots more information than that in their metadata.  At the time of this writing, one of the videos on the front page of Vimeo was [A Short Story About Hands](http://vimeo.com/67207222), which presents all this lovely data through the peekr:
 
-
-    {
-      "title": "A Short Story About Hands",
-      "description": "Written and Directed by Casey Donahue.  http://thecaseydonahue.com/shortstories",
-      "image": "http://b.vimeocdn.com/ts/439/000/439000905_1280.jpg",
-      "type": "video",
-      "video": "http://vimeo.com/moogaloop.swf?clip_id=67207222",
-      "video:secure_url": "https://vimeo.com/moogaloop.swf?clip_id=67207222",
-      "video:type": "application/x-shockwave-flash",
-      "video:width": "640",
-      "video:height": "360",
-      "site_name": "Vimeo",
-      "url": "http://vimeo.com/67207222"
-    }
+```javascript
+{
+  "title": "A Short Story About Hands",
+  "description": "Written and Directed by Casey Donahue.  http://thecaseydonahue.com/shortstories",
+  "image": "http://b.vimeocdn.com/ts/439/000/439000905_1280.jpg",
+  "type": "video",
+  "video": "http://vimeo.com/moogaloop.swf?clip_id=67207222",
+  "video:secure_url": "https://vimeo.com/moogaloop.swf?clip_id=67207222",
+  "video:type": "application/x-shockwave-flash",
+  "video:width": "640",
+  "video:height": "360",
+  "site_name": "Vimeo",
+  "url": "http://vimeo.com/67207222"
+}
+```
 
 Yup, that's an embeddable movie link right there.  We use that to populate the media listings for the site and show thumbnails for all the media for events on the event pages.
 
