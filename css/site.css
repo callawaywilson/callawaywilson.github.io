@@ -2,7 +2,7 @@
 @import url("//fonts.googleapis.com/css?family=Merriweather:300,700,300italic");
 
 /* Site Paragraphs */
-#content p, #content ul, #content li {
+#content p, #content ul {
 	font-size: 110%;
 	line-height: 180%;
 }
@@ -120,6 +120,10 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
 /* Landscape phones and down */
 @media (max-width: 480px) { }
 
+hr.end_content {
+  margin: 40px auto 50px auto;
+  max-width: 300px;
+}
 	
 .title_thumb {
 	width: 50px;
