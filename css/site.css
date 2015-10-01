@@ -44,6 +44,13 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
 	text-align: right;
 }
 
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+
 .profile-img {
 	width: 150px;
 	height: 148px;
