@@ -31,6 +31,10 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
 	max-width: 800px;
 }
 
+#content ol li {
+	padding-bottom: 12px;
+}
+
 #content img {
 	max-width: 100%;
 }
