@@ -38,6 +38,10 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: style
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 #
 # Site configuration
 #
