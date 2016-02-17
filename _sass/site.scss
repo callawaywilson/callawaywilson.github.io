@@ -27,7 +27,7 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
 
 
 #content {
-  margin: 4em 2em 1em 340px;
+  margin: 2em 2em 1em 340px;
   max-width: 800px;
 }
 
@@ -40,11 +40,8 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
 }
 
 #sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
+  float: left;
   width: 280px;
-  margin: 3em 0em;
   text-align: right;
 }
 
@@ -87,7 +84,7 @@ h2 {
 }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 800px) { 
+@media (max-width: 1000px) { 
 
 /*  p {
     font-size: 100%;
@@ -99,10 +96,10 @@ h2 {
     margin: 1em;
   }
 
-  #sidebar {
-    position: static;
-    width: auto;
-    margin: 1em 1em 2em 1em;
+  #sidebar {  
+    width: 100%;
+    padding-left: 1em;
+    margin-bottom: 1em;
     font-size: 18px;
     text-align: left;
   }
@@ -116,6 +113,7 @@ h2 {
   .name {
     font-size: 32px;
     margin-bottom: 5px;
+    margin-top: 5px;
   }
   .sitelinks {
     font-size: 18px;

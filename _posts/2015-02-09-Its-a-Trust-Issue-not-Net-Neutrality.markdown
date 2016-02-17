@@ -29,7 +29,7 @@ They wouldn't even have to actively make it difficult for Target and K-Mart to o
 
 As a matter of fact, from a shareholder point of view, it would be **irresponsible** for Walmart to spend **anything** on maintaining a competitor's product and distribution system.
 
-This brings us back to the Netflix and Comcast example.  Last year, people were accusing Comcast of intentionally degrading or neglecting their interconnection with Netflix [www.nytimes.com/2014/02/24/business/media/comcast-and-netflix-reach-a-streaming-agreement.html](http://www.nytimes.com/2014/02/24/business/media/comcast-and-netflix-reach-a-streaming-agreement.html).  That's only partly true.  They were neglecting it only in the sense that they weren't upgrading the connection points to eliminate congestion during prime streaming times.  Why should they spend money to help a competitor have better service?
+This brings us back to the Netflix and Comcast example.  Last year, people were [accusing Comcast](http://www.nytimes.com/2014/02/24/business/media/comcast-and-netflix-reach-a-streaming-agreement.html)accusing Comcast of intentionally degrading or neglecting their interconnection with Netflix .  That's only partly true.  They were neglecting it only in the sense that they weren't upgrading the connection points to eliminate congestion during prime streaming times.  Why should they spend money to help a competitor have better service?
 
 
 ## Network neutrality doesn't address the actual interconnection problem.
