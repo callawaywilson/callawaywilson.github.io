@@ -31,11 +31,11 @@ Unfortunately Atlanta is filled with spaces like this:
 
 This is the opposite of a public space.  This space screams with every fiber of it's being "Get out of here!"  This street does have sidewalks, but they're so uninviting and unsafe feeling I'd walk blocks out of the way to avoid them.  The buildings on either side of the street seem fortified against the street.  Almost as if a structure could have disdain.
 
-This is an unfortunate legacy from the architecture and urban planning thinking of the 60s-90s.  As the suburbs exploded in popularity downtown remained where the jobs were.  The people who successfully created little insular spaces for themselves in Roswell wanted to stay 'protected' when commuting into Atlanta.  We obliterated lovely historic neighborhoods to accommodate the desire to be fortified in a vehicle while driving to their job.  We designed office buildings that barricaded themselves against what was surely irreversible urban decay.
+This is an unfortunate legacy from the architecture and urban planning thinking of the 60s-90s.  As the suburbs exploded in popularity, downtown remained where the jobs were.  The people who successfully created little insular spaces for themselves in Roswell wanted to stay 'protected' when commuting into Atlanta.  We obliterated lovely historic neighborhoods to accommodate the desire to be fortified in a vehicle while driving to a job.  We designed office buildings that barricaded themselves against what was surely irreversible urban decay.
 
 The line of thinking was that urbanness was an unfortunate holdover of days when lack of car and computer forced people to live in close proximity to each other.  Indeed people were waiting for the day that they wouldn't even have to spend any time in a city at all because of the promise of telecommuting.  Everybody could live the 50s dream of a suburban house with a neighbor on each side and a shiny new car in the driveway.
 
-And so acres of well-build urban public space in Atlanta was torn down to fortify against the legacy of urbanness.  Instead of the public-facing buildings we once had, we have inward-facing buildings like the Americasmart and the Westin and the Marriott Marquis.
+And so acres of well-built urban public space in Atlanta were torn down to fortify against the legacy of urbanness.  Instead of the public-facing buildings we once had, we have inward-facing buildings like the Americasmart, Westin, and the Marriott Marquis.
 
 <p class="text-center">
   <img src="/images/2016-02-17-buildings.jpg"/>
@@ -51,4 +51,4 @@ This is the legacy that we have to fight against in making downtown a space that
   <em><small>Emory's Proton Therapy Center in Midtown.</small></em>
 </p>
 
-Still today we're seeing naked hostility towards the public space in Atlanta.  Not only did someone think that this was an appropriate building facade to put on Juniper Street, the sidewalk is still closed today.
+Even today we're seeing naked hostility towards the public space in Atlanta.  Not only did someone think that this was an appropriate building facade to put on Juniper Street, the sidewalk is still closed today.
