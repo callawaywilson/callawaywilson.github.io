@@ -6,7 +6,7 @@ title: Adam Wilson
 <div class="index">
 {% for post in site.posts limit:5 %}
 <h1 class="post_header">
-<a href="{{post.url}}">
+<a href="{{post.url}}" class="post_header_link">
   {{ post.title }}
   <br/>
   <small>{{ post.date | date_to_long_string }}</small>
@@ -23,5 +23,9 @@ title: Adam Wilson
 </div>
 
 {% include disqus_short.html %}
+
+<div class="more">
+  <a href="/posts.html">see more posts <i class="fa fa-hand-o-right"></i></a>
+</div>
 
 

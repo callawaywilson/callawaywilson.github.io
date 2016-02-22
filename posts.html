@@ -10,13 +10,14 @@ description: Ramblings and musings on technology, development, and life.
 <h2 class="post_header">
   <a href="{{post.url}}">
     {{ post.title }}
+    <br/>
     <small>{{ post.date | date_to_long_string }}</small>
   </a>
 </h2>
 <p class="post_info">
 </p>
 <div class="post_content">
-	{{ post.content | truncatewords: 70 }}
+	{{ post.excerpt }}
   <p>
     <a href="{{post.url}}">Go to post</a> &middot;
     <a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.url}}">Comments and Reactions</a>

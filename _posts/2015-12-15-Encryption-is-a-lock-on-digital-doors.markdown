@@ -14,7 +14,7 @@ There are several problems with this plan:
 
 ### Internet locks are not like physical locks
 
-Everybody loves analogies to explain technology, so let's start with that.  Law enforcement rightly has the authority to break locks on doors to access places they have a warrant to access.  The do not, however, have the right to dictate the nature of the door or locking mechanism.  What people are proposing now is just that: dictate the nature of the locks on digital doors. 
+Everybody loves analogies to explain technology, so let's start with that.  Law enforcement rightly has the authority to break locks on doors to access places they have a warrant to access.  They do not, however, have the right to dictate the nature of the door or locking mechanism.  What people are proposing now is just that: dictate the nature of the locks on digital doors. 
 
 This is problematic because of the difference between a digital door and a physical door.  Part of the security of a physical door is its spatial isolation.  A door can be hard to get to.  You have to physically pass through and occupy space around that door to get to it.  For a locked door that you don't have a key for, you have to physically modify (usually break) the door.  
 

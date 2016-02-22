@@ -54,7 +54,7 @@ body {
 }
 
 h1, h2 {
-  padding-bottom: 0.3em;
+  // padding-bottom: 0.3em;
 }
 
 h1 a, h1 a:active, h1 a:visited, h1 a:hover,
@@ -63,10 +63,19 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
   text-decoration:none;
   color:#444;
 }
+h1 a, h2 a, h3 a {
+  &:hover {
+    color: #4582ec;
+    small {
+      color: #B7CAEB !important;
+    }
+  }
+}
 
 
 #content {
   margin: 2em 2em 1em 340px;
+  padding-top: 1em;
   max-width: 800px;
 }
 
@@ -100,6 +109,7 @@ h2 {
 .menu_recent_posts {
   display: none;
 }
+
  
 /* Narrow browser */
 @media (max-width: 1000px) { 
@@ -168,9 +178,13 @@ h2 {
 /* Landscape phones and down */
 @media (max-width: 480px) { }
 
+hr {
+  border-top: 1px solid #ddd;
+}
+
 hr.end_content {
   margin: 40px auto 50px auto;
-  max-width: 300px;
+  max-width: 150px;
 }
   
 .title_thumb {
@@ -191,6 +205,9 @@ ul.sitelinks li {
   padding: 6px 0;
 }
 
+.recent_posts {
+  margin-top: 3em;
+}
 
 .recent_posts ul {
   margin: 5px 0 20px 10px;
@@ -216,6 +233,14 @@ ul.sitelinks li {
 
 .leftinfo img {
   border: none;
+}
+
+.post_header {
+  margin-bottom: 1em;
+}
+
+.more {
+  text-align: center;
 }
 
 /* Landscape phone to portrait tablet */
@@ -248,5 +273,6 @@ pre, code {
 .highlight pre, .highlight code {
   background-color: #FCFCFC;
 }
+
 
 #dsq-content #dsq-comments .dsq-comment-message { font-size: 18px; }

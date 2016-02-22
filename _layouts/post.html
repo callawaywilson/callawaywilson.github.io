@@ -8,15 +8,14 @@ layout: default
   <small>{{ page.date | date_to_long_string }}</small>
 </h1>
 
-<p class="post_info">
-  <a href="#disqus_thread" data-disqus-identifier="{{page.url}}"><i class="fa fa-pencil"></i> Comments and Reactions</a>
-</p>
 
 <div class="post_content">
 	{{ content }}
+
+  <hr class="end_content"/>
+
 	<div id="disqus_thread"></div>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
 
 {% include disqus_full.html %}
