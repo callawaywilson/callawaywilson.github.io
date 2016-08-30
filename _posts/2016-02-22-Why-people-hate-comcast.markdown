@@ -21,6 +21,6 @@ Because in most areas the ISPs operate as a monopoly, they absolutely do not car
 
 The donwside to this strategy is that as soon as a competitor enters the field customers will jump ship no matter what Comcast does.  Wherever Google Fiber has entered the market people have subscribed despite it being potentially more expensive (although not for the same service level).  
 
-> Personally I'd switch away from Comcast even if their service were free.  Why?  Because fuck them.
+> Personally I'd switch away from Comcast even if their service were free.  Why?  Because they've made an enemy of me.
 
 That's the attitude that the incumbent ISPs have to deal with in any market where actual competition crops up.  Maybe I'm overestimating the memory of the average consumer, though.  Maybe once the competitive landscape changes and the problems with the new entrants crop up people will forget how much they hated Comcast. 
