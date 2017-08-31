@@ -41,9 +41,6 @@
 }
 
 
-#content {
-  overflow:auto;
-}
 /* Site Paragraphs */
 #content p, #content ul {
   // font-size: 110%;
@@ -136,6 +133,13 @@ h2 {
     border-radius: 50px;
   }
 
+}
+
+
+@media (min-width: 1001px) { 
+#content {
+  overflow:auto;
+}
 }
  
 /* Landscape phone to portrait tablet */
