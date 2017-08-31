@@ -41,10 +41,13 @@
 }
 
 
+#content {
+  overflow:auto;
+}
 /* Site Paragraphs */
 #content p, #content ul {
-  font-size: 110%;
-  line-height: 180%;
+  // font-size: 110%;
+  line-height: 170%;
 }
 
 body {
@@ -244,6 +247,14 @@ ul.sitelinks li {
 
 .more {
   text-align: center;
+}
+
+.thumbnail {
+  .caption {
+    p {
+      font-size: 90% !important;
+    }
+  }
 }
 
 /* Landscape phone to portrait tablet */

@@ -1,0 +1,22 @@
+---
+layout: default
+title: The Internet has ruined monetization
+keywords: monetization internet
+description: .
+tags:
+- adblock internet
+---
+
+I think there's a misconception about monetization.  Many people say that information (specifically the news and editorial content) can't be monetized the way it once was.  This opinion doesn't acknowledge the true monetization that happened before the Internet became the most common avenue for information dissemination.  **Before the Internet the means of distribution of information was monetized.**
+
+- Natural law of information wanting to be free
+
+- People have come to expect things for free online
+  - Have they?  People pay for internet access and physical goods on Amazon.
+  - People are perfectly willing to subscribe to Netflix streaming only and Spotify
+  - Maybe people have an intuition about what information is worth
+
+- Problem of good Journalism now.
+  - News centers were always loss-leaders
+  - News used to be a requirement for broadcast licenses.
+  - No license needed to broadcast online, no scaricty of broadcast medium, either.
