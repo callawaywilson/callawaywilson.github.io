@@ -26,6 +26,7 @@ Unfortunately Atlanta is filled with spaces like this:
 
 <p class="text-center">
   <img src="/images/2016-02-17-hostile.jpg"/>
+  <br/>
   <em><small>An actual street in downtown Atlanta.  At least it has sidewalks...</small></em>
 </p>
 
@@ -39,6 +40,7 @@ And so acres of well-built urban public space in Atlanta were torn down to forti
 
 <p class="text-center">
   <img src="/images/2016-02-17-buildings.jpg"/>
+  <br/>
   <em><small>Atlanta's fortified spaces.  Top: The Marriott Marquis with its glorious inner volume and big middle finger to Peachtree Street.  Bottom: An Americasmart building (one of four buildings) hoarding is interior space.</small></em>
 </p>
 
@@ -48,6 +50,7 @@ This is the legacy that we have to fight against in making downtown a space that
 
 <p class="text-center">
   <img src="/images/2016-02-17-emory.jpg"/>
+  <br/>
   <em><small>Emory's Proton Therapy Center in Midtown.</small></em>
 </p>
 

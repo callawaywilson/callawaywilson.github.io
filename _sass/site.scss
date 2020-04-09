@@ -1,67 +1,9 @@
-@font-face {
-  font-family: 'Merriweather';
-  font-weight: 300;
-  font-style: normal;
-  src: url('/fonts/Merriweather-300/Merriweather-300.eot');
-  src: url('/fonts/Merriweather-300/Merriweather-300.eot?#iefix') format('embedded-opentype'),
-       local('Merriweather Light'),
-       local('Merriweather-300'),
-       url('/fonts/Merriweather-300/Merriweather-300.woff2') format('woff2'),
-       url('/fonts/Merriweather-300/Merriweather-300.woff') format('woff'),
-       url('/fonts/Merriweather-300/Merriweather-300.ttf') format('truetype'),
-       url('/fonts/Merriweather-300/Merriweather-300.svg#Merriweather') format('svg');
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  font-weight: 700;
-  font-style: normal;
-  src: url('/fonts/Merriweather-700/Merriweather-700.eot');
-  src: url('/fonts/Merriweather-700/Merriweather-700.eot?#iefix') format('embedded-opentype'),
-       local('Merriweather Bold'),
-       local('Merriweather-700'),
-       url('/fonts/Merriweather-700/Merriweather-700.woff2') format('woff2'),
-       url('/fonts/Merriweather-700/Merriweather-700.woff') format('woff'),
-       url('/fonts/Merriweather-700/Merriweather-700.ttf') format('truetype'),
-       url('/fonts/Merriweather-700/Merriweather-700.svg#Merriweather') format('svg');
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  font-weight: 300;
-  font-style: italic;
-  src: url('/fonts/Merriweather-300italic/Merriweather-300italic.eot');
-  src: url('/fonts/Merriweather-300italic/Merriweather-300italic.eot?#iefix') format('embedded-opentype'),
-       local('Merriweather Light Italic'),
-       local('Merriweather-300italic'),
-       url('/fonts/Merriweather-300italic/Merriweather-300italic.woff2') format('woff2'),
-       url('/fonts/Merriweather-300italic/Merriweather-300italic.woff') format('woff'),
-       url('/fonts/Merriweather-300italic/Merriweather-300italic.ttf') format('truetype'),
-       url('/fonts/Merriweather-300italic/Merriweather-300italic.svg#Merriweather') format('svg');
-}
-
-
-/* Site Paragraphs */
-#content p, #content ul {
-  // font-size: 110%;
-  line-height: 170%;
-}
-
-body {
-  font-family: "Merriweather", Georgia, serif;
-  font-weight: light;
-  color: #444;
-}
-
-h1, h2 {
-  // padding-bottom: 0.3em;
-}
 
 h1 a, h1 a:active, h1 a:visited, h1 a:hover,
 h2 a, h2 a:active, h2 a:visited, h2 a:hover,
 h3 a, h3 a:active, h3 a:visited, h3 a:hover {
   text-decoration:none;
-  color:#444;
+  color:#343a40;
 }
 h1 a, h2 a, h3 a {
   &:hover {
@@ -72,11 +14,15 @@ h1 a, h2 a, h3 a {
   }
 }
 
+#page {
+  max-width: 1500px;
+  margin: auto;
+}
 
 #content {
   margin: 2em 2em 1em 340px;
   padding-top: 1em;
-  max-width: 800px;
+  max-width: 1100px;
 }
 
 #content ol li {
@@ -107,12 +53,16 @@ h2 {
   width: 150px;
   height: 148px;
   border-radius: 75px;
+  margin-bottom: 1rem;
 }
 
 .menu_recent_posts {
   display: none;
 }
 
+.half-width {
+  max-width: 40% !important;
+}
  
 /* Narrow browser */
 @media (max-width: 1000px) { 
@@ -135,13 +85,6 @@ h2 {
 
 }
 
-
-@media (min-width: 1001px) { 
-#content {
-  overflow:auto;
-}
-}
- 
 /* Landscape phone to portrait tablet */
 @media (max-width: 1000px) { 
 

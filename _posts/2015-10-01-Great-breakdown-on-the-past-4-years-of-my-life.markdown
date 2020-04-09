@@ -11,6 +11,7 @@ tags:
   <a href="http://www.hughmalkin.com/blogwriter/2015/9/23/why-no-one-has-solved-event-discovery">
     <img src="/images/2015-10-01-event-discovery.jpg"/>
   </a>
+  <br/>
   <em><small>hughmalkin.com: Why no one has solved event discovery</small></em>
 </p>
 
