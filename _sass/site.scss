@@ -37,7 +37,7 @@ h1 a, h2 a, h3 a {
 }
 
 #sidebar {
-  float: left;
+  position: fixed;
   width: 280px;
   text-align: right;
 }
@@ -99,9 +99,10 @@ h2 {
   }
 
   #sidebar {  
+    position: initial;
     width: 100%;
-    padding-left: 1em;
-    margin-bottom: 1em;
+    padding-left: 1rem;
+    margin: 1rem 0;
     font-size: 18px;
     text-align: left;
   }
