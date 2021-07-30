@@ -14,6 +14,10 @@ h1 a, h2 a, h3 a {
   }
 }
 
+ul.p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 #page {
   max-width: 1500px;
   margin: auto;
@@ -174,14 +178,14 @@ ul.sitelinks li {
 }
 
 .rightinfo {
-  margin-left: 230px;
+  margin-left: 330px;
   margin-bottom: 40px;
 }
 
 .leftinfo {
   float: left;
   text-align: left;
-  width: 220px;
+  width: 320px;
   margin: 0 5px 40px 0;
   padding-right: 10px;
 }
@@ -207,7 +211,7 @@ ul.sitelinks li {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 800px) { 
+@media (max-width: 1400px) { 
   .rightinfo {
     margin-left: 0;
     margin-bottom: 0;
