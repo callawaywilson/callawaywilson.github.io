@@ -17,7 +17,7 @@ This interaction model was producing great results and I started to default to s
 
 > Coding with an LLM is like having a blazing fast junior developer who knows everything but has no wisdom.  And will never improve.
 
-So, when in full flow in a coding session with an LLM, I can basically do the full task, feedback, re-task cycle virtually without waiting.  While an actual developer would go off for an hour or two, the AI does it in seconds.  The cognitive overhead is pretty high to get so much done so quickly, but it can turn a full day of junior work into 30 minute to an hour of supervisory work.
+So, when in full flow in a coding session with an LLM, I can basically do the full task, feedback, re-task cycle virtually without waiting.  While an actual developer would go off for an hour or two, the AI does it in seconds.  The cognitive overhead is pretty high to get so much done so quickly, but it can turn a full day of junior work into 30 minutes to an hour of supervisory work.
 
 And thus is this problem.  I now have no incentive to bring in a junior.  I have no incentive to train up another engineer or developer.  I have no incentive to pay a salary for work that I can get done with a $15/month subscription.  I accellerated, but the ladder is pulled up behind me.
 
