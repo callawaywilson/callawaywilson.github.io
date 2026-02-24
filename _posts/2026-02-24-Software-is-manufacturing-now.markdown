@@ -2,7 +2,7 @@
 layout: post
 title: Software is manufacturing now
 keywords: ai llm development
-description: Software is manufacturing now
+description: Software development is maturing past artisanship. LLMs and AI are commoditizing coding the way factories commoditized shoemaking — and that's not a threat, it's an opportunity for developers who understand their real job is delivering digital functionality, not writing code.
 tags:
 - ai
 ---
