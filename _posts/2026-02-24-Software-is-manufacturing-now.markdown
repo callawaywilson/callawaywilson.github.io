@@ -7,7 +7,7 @@ tags:
 - ai
 ---
 
-I've been wondering for a while when software development would mature past artisanship.  I think that we're peeking over the wall of that transition now.  Formal processes development has existed since the beginning and it is used to create the most mission-critical and fault-intolerant systems, but the VAST majority of software has been created by developers in shops banging out code (sometimes tested). 
+I've been wondering for a while when software development would mature past artisanship.  I think that we're peeking over the wall of that transition now.  Formal processes development has existed since the beginning and it is used to create the most mission-critical and fault-intolerant systems, but the VAST majority of software has been created by developers in shops banging out code (hopefully tested). 
 
 I used to think that the maturation would be consensus and hardening of libraries that are glued together to build systems that could only come out in a few different ways.  Similar to how there are only a few ways to build a bridge.  In the past year, though, I've come to think that it's really just going to be the commoditization of coding via AI.  It's soft and error prone now, but it is getting and will continue to get better and cheaper.
 
