@@ -41,13 +41,13 @@ sass:
 #
 # Site configuration
 #
-url:          http://callawaywilson.com
-domain:       callawaywilson.com
+url:          http://adamwilson.dev
+domain:       adamwilson.dev
 title:        Adam Callaway Wilson | Developer's Musings
-keywords:     Adam Wilson Ruby Rails Blog Web Development Technology Nerd HugeCity.us
+keywords:     Adam Wilson software engineering leader consultant founder technology development nerd
 description:  Adam Callaway Wilson's personal website and blog.  Writings about technology, development, and nerd-dom.  Projects I have worked on and am working on.
 author:       Adam Wilson
-email:        adam@callawaywilson.com
+email:        adam@bastion.dev
 
 #Google Analytics
 analytics_id: UA-25746028-1
