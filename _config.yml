@@ -41,7 +41,7 @@ sass:
 #
 # Site configuration
 #
-url:          http://adamwilson.dev
+url:          https://adamwilson.dev
 domain:       adamwilson.dev
 title:        Adam Callaway Wilson | Developer's Musings
 keywords:     Adam Wilson software engineering leader consultant founder technology development nerd
