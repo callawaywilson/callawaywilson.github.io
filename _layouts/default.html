@@ -7,11 +7,11 @@
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
 
-	<meta property="og:title" content="{{ page.title }}" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta property="og:image" content="{{ site.url }}/images/profile-poster.png" />
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-	<meta property="og:type" content="website" />
+	<meta name="title" property="og:title" content="{{ page.title }}" />
+	<meta name="description" property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+	<meta name="image" property="og:image" content="{{ site.url }}/images/profile-poster.png" />
+	<meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}" />
+	<meta name="type" property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="{{ page.title }}" />
