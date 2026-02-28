@@ -12,6 +12,7 @@
 	<meta name="image" property="og:image" content="{{ site.url }}/images/profile-poster.png" />
 	<meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}" />
 	<meta name="type" property="og:type" content="website" />
+	{% if page.date %}<meta name="published_time" property="og:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="{{ page.title }}" />
