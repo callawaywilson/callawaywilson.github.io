@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>{{ page.title }}</title>
+	<link rel="icon" type="image/png" href="{{ site.image }}" />
 	<link rel="stylesheet" href="/css/site.css" type="text/css"/>
 	<link rel="stylesheet" media="print" href="/css/print.css">
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
@@ -9,7 +10,7 @@
 
 	<meta name="title" property="og:title" content="{{ page.title }}" />
 	<meta name="description" property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta name="image" property="og:image" content="{{ site.url }}/images/profile-poster-thumb_square.png" />
+	<meta name="image" property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
 	<meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}" />
 	<meta name="type" property="og:type" content="website" />
 	{% if page.date %}<meta name="published_time" property="og:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
@@ -17,7 +18,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="{{ page.title }}" />
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta name="twitter:image" content="{{ site.url }}/images/profile-poster.png" />
+	<meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
 	<meta name="twitter:site" content="@{{ site.twitter_username }}" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=0.85">

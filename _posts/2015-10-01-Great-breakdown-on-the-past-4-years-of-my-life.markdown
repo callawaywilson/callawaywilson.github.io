@@ -3,6 +3,7 @@ layout: post
 title: Great breakdown on the past 4 years of my life
 keywords: events discovery hugecity timeout
 description: Hugh Malkin's thorough and insightful post on the challenges of event discovery 
+image: /images/2015-10-01-event-discovery.jpg
 tags:
 - internet 
 ---
